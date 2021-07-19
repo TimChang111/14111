@@ -1,0 +1,43 @@
+music.set_tempo(110)
+for index in range(2):
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+for index2 in range(1):
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(349, music.beat(BeatFraction.WHOLE))
+    music.play_tone(349, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(349, music.beat(BeatFraction.WHOLE))
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(392, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.DOUBLE))
+for index3 in range(2):
+    music.play_tone(349, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+for index4 in range(1):
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(349, music.beat(BeatFraction.WHOLE))
+    music.play_tone(330, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+    music.play_tone(294, music.beat(BeatFraction.WHOLE))
+    music.play_tone(262, music.beat(BeatFraction.WHOLE))
+
+def on_forever():
+    pass
+basic.forever(on_forever)
